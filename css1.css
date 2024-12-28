@@ -16,6 +16,7 @@ html,body , form {
 #s1{
     cursor: pointer;
 }
+
 #s{
     cursor: pointer;
 }
@@ -39,10 +40,20 @@ html,body , form {
     display: inline-block;
   
 }
+/* .uluser{
+    list-style-type: none;
+} */
 .diviconrtl{
     height: 50px;
     width: 35%;
     direction: rtl;
+    background-color: aquamarine;
+}
+.r{
+    position: relative;
+}
+.a{
+    position: absolute;
 }
 .logoimg{
     margin-top: 15px;
@@ -72,6 +83,9 @@ html,body , form {
     
     
 }
+.m{
+    list-style-type: none;
+}
 
 .ul1{
     width: 100px;
@@ -93,7 +107,9 @@ html,body , form {
 #ul2{
     right: 170px;
 }
-
+/* .u1{
+    right: 500px;
+} */
 .li:hover > ul{
     opacity: 1;/*-----*/
     visibility: visible;
