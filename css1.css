@@ -1,93 +1,111 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900';
 @import 'https://htmldemo.net/corano/corano/assets/css/vendor/pe-icon-7-stroke.css';
 @import 'https://htmldemo.net/corano/corano/assets/css/vendor/font-awesome.min.css';
-:root{
-    --rgbkh:rgb(80, 80, 80);
+
+:root {
+    --rgbkh: rgb(80, 80, 80);
 }
-html,body , form {
+
+html,
+body,
+form {
     padding: 0px;
     margin: 0px;
 }
-.welcom-message{
+
+.welcom-message {
     color: rgb(80, 80, 80);
     padding: 0px 20px;
     font-size: 15px;
 }
-#s1{
+
+#s1 {
     cursor: pointer;
 }
 
-#s{
+#s {
     cursor: pointer;
 }
-.divone{
+
+.divone {
     margin-top: 20px;
     height: 50px;
-   display:flex;
-   justify-content: space-around; /*----------------*/
-  
+    display: flex;
+    justify-content: space-around;
+    /*----------------*/
+
 }
-.divsocial{
+
+.divsocial {
     height: 50px;
     width: 35%;
     direction: ltr;
 
 }
-.logodiv{
-   width: 20%;
+
+.logodiv {
+    width: 20%;
     text-align: center;
     height: 50px;
     display: inline-block;
-  
+
 }
+
 /* .uluser{
     list-style-type: none;
 } */
-.diviconrtl{
+.diviconrtl {
     height: 50px;
     width: 35%;
     direction: rtl;
-    background-color: aquamarine;
 }
-.r{
+
+.r {
     position: relative;
 }
-.a{
+
+.a {
     position: absolute;
 }
-.logoimg{
+
+.logoimg {
     margin-top: 15px;
-   
+
 }
-.divh{
+
+.divh {
     display: flex;
     justify-content: space-around;
 }
-#div1{
- 
+
+#div1 {
+
     display: inline-block;
     height: 40px;
     width: 40%;
 }
-#div2{
-    
+
+#div2 {
+
     direction: rtl;
     width: 40%;
     height: 40px;
 }
-.ul{
+
+.ul {
 
     list-style-type: none;
     padding-right: 0px;
-   
-    
-    
+
+
+
 }
-.m{
+
+.m {
     list-style-type: none;
 }
 
-.ul1{
+.ul1 {
     width: 100px;
     border: 1px solid #f5f5f5;
     z-index: 1;
@@ -95,75 +113,95 @@ html,body , form {
     padding: 20px;
     padding-left: 10px;
     list-style: none;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-  visibility: hidden;
-  opacity: 0;/*-----*/
-  transition: 0.5s ease;/*-----*/
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    opacity: 0;
+    /*-----*/
+    transition: 0.5s ease;
+    /*-----*/
 }
-#ul1{
+
+#ul1 {
     right: 50px;
 }
-#ul2{
+
+#ul2 {
     right: 170px;
 }
+
 /* .u1{
     right: 500px;
 } */
-.li:hover > ul{
-    opacity: 1;/*-----*/
+.li:hover>ul {
+    opacity: 1;
+    /*-----*/
     visibility: visible;
-    
+
 }
-.li{
+
+.li {
     color: rgb(80, 80, 80);
     display: inline;
 
 }
-.ul ul{
+
+.ul ul {
     text-align: left;
-   
+
 }
-.li2{
+
+.li2 {
     transition: color 0.5s ease;
     color: rgb(80, 80, 80);
     padding-left: -5px;
-    padding:5px 5px;
+    padding: 5px 5px;
 }
-.li2:hover{
+
+.li2:hover {
     color: #c29958;
 }
-#s::after{
- content: "$";
- color: rgb(80, 80, 80);
-}               
-#s1::after{
-    content:"|";
+
+#s::after {
+    content: "$";
+    color: rgb(80, 80, 80);
+}
+
+#s1::after {
+    content: "|";
     color: rgb(196, 196, 196);
     margin-right: 15px;
 }
-.divsocial ul{
-   margin-top: 0px; /*----------------*/
+
+.divsocial ul {
+    margin-top: 0px;
+    /*----------------*/
     list-style-type: none;
-    position: absolute; /*----------------*/
-   
-   
+    position: absolute;
+    /*----------------*/
+
+
 }
-.divsocial ul li{
+
+.divsocial ul li {
     display: inline-block;
 }
-.divsocial i{
+
+.divsocial i {
     transition: color 0.5s ease;
     color: rgb(136, 135, 135);
     text-align: left;
     padding: 10px;
 }
-.divsocial i:hover{
+
+.divsocial i:hover {
     color: #c29958;
     cursor: pointer;
 }
+
 .diviconrtl ul {
-    margin-top: 0px; /*----------------*/
+    margin-top: 0px;
+    /*----------------*/
     position: relative;
     list-style-type: none;
     /* display: flex; */
@@ -171,28 +209,34 @@ html,body , form {
     text-align: right;
     margin-right: -5px;
 }
-.diviconrtl ul li{
+
+.diviconrtl ul li {
     display: inline-block;
 }
-.diviconrtl i{
+
+.diviconrtl i {
     color: rgb(80, 80, 80);
     padding: 12px;
     cursor: pointer;
     font-size: 25px;
 }
-.icon i{
+
+.icon i {
     transition: color 0.5s ease;
     color: rgb(80, 80, 80);
 }
-.icon:hover i{
+
+.icon:hover i {
     color: #c29958;
 }
-.diviconrtl button{
+
+.diviconrtl button {
     color: rgb(80, 80, 80);
     background-color: #ffffff;
     border: 0px;
 }
-.diviconrtl .notif{
+
+.diviconrtl .notif {
     top: 2px;
     right: 96px;
     position: absolute;
@@ -205,7 +249,8 @@ html,body , form {
     border-radius: 50%;
     background-color: #c29958;
 }
-.diviconrtl .notif1{
+
+.diviconrtl .notif1 {
     top: 3px;
     right: 148px;
     position: absolute;
@@ -218,31 +263,42 @@ html,body , form {
     border-radius: 50%;
     background-color: #c29958;
 }
-.menu{
-   
+
+.menu {
+
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.menu .menuul{
+
+.menu .menuul {
     text-align: center;
     list-style-type: none;
 }
-.Home{
+
+.Home {
     cursor: pointer;
     position: relative;
 }
-.Home, .Pages, .Shop, .Blog, .Contact {
-    padding: 15px ;
+
+.Home,
+.Pages,
+.Shop,
+.Blog,
+.Contact {
+    padding: 15px;
     display: inline-block;
 }
-.Home span{
+
+.Home span {
     color: #c29958;
 }
-.menu{
+
+.menu {
     text-align: center;
     color: #222222;
 }
-.Home ul{
+
+.Home ul {
     left: 0px;
     top: 0px;
     position: absolute;
@@ -251,15 +307,15 @@ html,body , form {
     list-style-type: none;
     padding: 42px 2px;
     opacity: 0;
-    /* color: var(--rgbkh); */
-    color: #802222;/*رنگ اعمال شد؟*/
     transition: 0.5s ease;
 }
-.Home li{
+
+.Home li {
     width: 180px;
 
-} 
-.Home div{
+}
+
+.Home div {
     z-index: 40;
     visibility: hidden;
     opacity: 0;
@@ -269,33 +325,40 @@ html,body , form {
     position: absolute;
     transition: 0.5s ease;
 }
-.Home:hover div{
+
+.Home:hover div {
     visibility: visible;
     opacity: 1;
 }
-.Home ul li{
+
+.Home ul li {
     background-color: #ffffff;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     padding: 10px 10px;
 }
-.Home .homeli:not(:last-of-type){
+
+.Home .homeli:not(:last-of-type) {
     border-bottom: 1px dashed #efefef;
 }
-.Home:hover  ul{
+
+.Home:hover ul {
     opacity: 1;
     visibility: visible;
 }
-.Home ul{
+
+.Home ul {
     color: rgb(80, 80, 80);
 }
-.Home a{
+
+.Home a {
     display: flex;
     justify-content: start;
     align-items: center;
     text-decoration: none;
     color: #646464;
 }
-.Home a::before{
+
+.Home a::before {
     content: "";
     width: 0px;
     height: 2px;
@@ -303,55 +366,67 @@ html,body , form {
     background-color: #646464;
     transition: all 150ms ease-in;
 }
-.Home li:hover a::before{
+
+.Home li:hover a::before {
     width: 8px;
     background-color: #c29958;
 }
-.Home li:hover a{
+
+.Home li:hover a {
     color: #c29958;
 }
+
 .menu a {
     color: #222222;
     transition: color 0.5s ease;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: #222222;
 }
-.Pages{
+
+.Pages {
     position: relative;
 }
-.Pages a{
+
+.Pages a {
     text-decoration: none;
 }
-.menu a:hover{
-   color: #c29958;
-   cursor: pointer; 
+
+.menu a:hover {
+    color: #c29958;
+    cursor: pointer;
 }
 
-.Pages ul{
+.Pages ul {
     list-style-type: none;
     display: none;
     position: absolute;
 
 }
-.Pages:hover ul{
+
+.Pages:hover ul {
     display: block;
 }
-.Shop:hover{
+
+.Shop:hover {
     color: #c29958;
     cursor: pointer;
 }
-.Blog:hover{
+
+.Blog:hover {
     color: #c29958;
     cursor: pointer;
 }
-.Contact:hover{
-   color: #c29958;
-   cursor: pointer;
-    
+
+.Contact:hover {
+    color: #c29958;
+    cursor: pointer;
+
 }
-.section1{
+
+.section1 {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -359,58 +434,66 @@ html,body , form {
     align-items: center;
     justify-content: center;
     height: 80vh;
-  
+
 }
-.section1 .slider{
+
+.section1 .slider {
     overflow: hidden;
     position: relative;
 }
-.section1 .slides{
-    display: flex; /* محو شدن اسلاید ها */
+
+.section1 .slides {
+    display: flex;
+    /* محو شدن اسلاید ها */
     transition: transform 0.5s ease;
 }
-.section1 .slides .slide{
+
+.section1 .slides .slide {
     width: 100%;
     flex-shrink: 0;
     overflow: hidden;
     position: relative;
     display: inline-block;
 }
-#slide1 .text{
+
+#slide1 .text {
     box-sizing: border-box;
     display: inline-block;
     position: absolute;
-    top:70px;
+    top: 70px;
     left: 50px;
     color: #222222;
     font-size: 65px;
     font-weight: normal;
 }
-#slide1 .text1{
+
+#slide1 .text1 {
     font-family: "Lato", sans-serif;
     display: inline-block;
     position: absolute;
-    top:260px;
+    top: 260px;
     left: 50px;
     color: rgb(61, 61, 61);
     font-size: 20px;
     font-weight: normal;
 }
-.slides .text2{
+
+.slides .text2 {
     position: absolute;
-    top:100px;
+    top: 100px;
     left: 50px;
     color: #222222;
     font-size: 65px;
 }
-.slides .readmore{
+
+.slides .readmore {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
-    top:330px;
+    top: 330px;
     left: 50px;
     background-color: #c29958;
     position: absolute;
@@ -419,26 +502,44 @@ html,body , form {
     width: 100px;
     height: 30px;
 }
-.slides .text3{
+
+.slides .text3 {
     font-family: "Lato", sans-serif;
     position: absolute;
-    top:270px;
+    top: 270px;
     left: 50px;
     color: rgb(61, 61, 61);
     font-size: 20px;
 }
-.slides img{
+
+.slides img {
     width: 100%;
-    height:80vh;
+    height: 80vh;
 }
 
-.section2 .div1{
+.section2 .div1 {
     margin-top: 30px;
     padding-top: 30px;
-   justify-content: center;
-   text-align: center;
-  
+    justify-content: center;
+    text-align: center;
+
 }
-.section2 p{
-    color:#222222;
+
+.p-1 {
+    color: transparent;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #c29958, #000, #c29958);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    animation: paragraph 5s linear infinite;
+    -webkit-animation: paragraph 5s linear infinite;
+    background-clip: text;
+}
+@keyframes paragraph{
+    from{
+        background-position: -1200%;
+    }
+    to{
+        background-position: 300%;
+    }
 }
